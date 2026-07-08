@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "deepdog-work-plugins-official",
+  "description": "Directory of DeepDog Work plugins including development tools, productivity plugins, and MCP integrations",
+  "owner": {
+    "name": "deepdog"
+  },
+  "renames": {
+    "adlc": "agentforce-adlc",
+    "airwallex": "airwallex-agentos",
+    "convex-backend": "convex",
+    "vals": "valtown"
+  },
+  "plugins": [
+    {
+      "name": "project-artifact",
+      "description": "Generate and publish a living project status page with overview, success criteria, workstream sequence, and next steps as a shareable artifact backed by a per-project config.",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "source": "./plugins/project-artifact",
+      "category": "productivity",
+      "homepage": "https://github.com/PrimaryCY/deepdog-work-plugins-official/tree/main/plugins/project-artifact"
+    }
+  ]
+}

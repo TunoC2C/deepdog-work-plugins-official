@@ -1,0 +1,9 @@
+{
+  "hello-deepdog": {
+    "type": "stdio",
+    "command": "node",
+    "args": [
+      "${CLAUDE_PLUGIN_ROOT}/mcp/hello-server.mjs"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "hello-deepdog",
+  "description": "Minimal DeepDog plugin demo with command, skill, and MCP examples.",
+  "author": {
+    "name": "deepdog"
+  }
+}
